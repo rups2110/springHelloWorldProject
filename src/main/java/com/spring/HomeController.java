@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	@RequestMapping("/")
 	public String showHomePage() {
-		System.out.println("controller invoked");
+		//sysout there
+		System.out.println("controller invoked once");
 		return "home";
 	}
 
